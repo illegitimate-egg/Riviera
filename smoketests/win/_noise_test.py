@@ -27,7 +27,7 @@ lib.Get2DNoiseHeightMap.restype = ctypes.c_size_t
 
 W, H = 512, 512
 SEED = rnd.randint(0, 10000)
-SCALE = 0.02
+SCALE = 1
 ORIGIN_X = 1000
 ORIGIN_Y = -500
 
